@@ -1,6 +1,6 @@
 import React from 'react';
 
-import TimeCard from './TimeCard';
+import DayList from './DayList';
 import Settings from './Settings';
 
 const withTabProps = (InputComponent, key, activeIndex, tabbar, navigator) => (
@@ -14,8 +14,8 @@ const withTabProps = (InputComponent, key, activeIndex, tabbar, navigator) => (
 
 const tabRoutes = [
   {
-    component: TimeCard,
-    title: 'TimeCard',
+    component: DayList,
+    title: 'Time Card',
     icon: 'md-info',
   },
   {
